@@ -10,7 +10,7 @@ const stringArray = ["ready", "reconnecting", "disconnect", "message", "!hello",
 // Add a safer way to store the token (password)
 const {
     token
-} = require(arr[0]);
+} = require("./token.json");
 
 // Display a message when the bot comes online
 client.on(stringArray[0], () => {
